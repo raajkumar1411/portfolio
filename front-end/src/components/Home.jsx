@@ -1,8 +1,32 @@
-import React from 'react'
+import React from 'react';
+import pic from '../assets/pic.jpg';
+import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div name="home" className=' h-screen w-full bg-gradient-to-b from-black to-gray-800'>
+        
+        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full  text-white px-4 md:flex-row'>
+            <div className='flex flex-col justify-center h-full  mt-4  ' >
+                <h2 className='text-4xl sm:text-7xl font-bold '> I'm a Frontend Developer</h2>
+                <p className='text-gray-500 py-6'>Currently, I love to work on web application using techologies like  HTML,CSS,JS,React,Tailwind,Node Js,Express Js and MongoDb.
+
+                </p>
+                <div  >
+<button className='text-whtie w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'> portfolio 
+<span className='hover:rotate-90 duration-500'>
+    <MdOutlineKeyboardArrowRight size={25} className='ml-1'/>
+    </span> 
+    </button>
+                </div>
+            </div>
+            <div className='p-4'>
+        <img src={pic} alt="raajkumar" className='rounded-2xl mx-auto w-full h-48   overflow-hidden md:w-full    ' />
+
+            </div>
+        </div>
+    </div>
+
   )
 }
 
