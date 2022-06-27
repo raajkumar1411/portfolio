@@ -23,7 +23,7 @@ const Navbar = () => {
     }]
   return (
    
-   <div className='flex justify-between items-center w-full h20 text-white fixed bg-black px-4'>
+   <div className='flex justify-between items-center w-full h20 text-white fixed bg-black px-4 '>
 {/* logo */}
 <div >
    <h1 className="text-3xl font-signature  m-1 ml-2">Raajkumar</h1> 

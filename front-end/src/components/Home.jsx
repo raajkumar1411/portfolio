@@ -6,11 +6,11 @@ import portfolio from './Portfolio';
 
 const Home = () => {
   return (
-    <div name="home" className=' h-screen w-full bg-gradient-to-b from-black to-gray-800'>
+    <div name="home" className=' h-full w-full bg-gradient-to-b from-black to-gray-800'>
         
         <div className='max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full  text-white px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full  mt-4 mx-5  ' >
-                <h2 className='text-4xl sm:text-7xl font-bold '> I'm a Frontend Developer</h2>
+                <h2 className='text-4xl sm:text-7xl font-bold mt-5'> I'm a Frontend Developer</h2>
                 <p className='text-gray-500 py-6'>Currently, I love to work on web application using techologies like  HTML,CSS,JS,React,Tailwind,Node Js,Express Js and MongoDb.
 
                 </p>
